@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+
+:root{
+    --cor-de-fundo: #5BC241;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', serif;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.menu{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.fundo-verde{
+    background-color: var(--cor-de-fundo);
+    padding: 10px;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
